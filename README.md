@@ -9,7 +9,7 @@ How to use:
 
 1.) download repo
 
-2.) cd Take-Out-KeychainDB.git
+2.) cd Take-Out-KeychainDB
 
 3.) sudo chmod +x blow_away_keychain.sh
 
