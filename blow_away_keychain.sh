@@ -3,11 +3,16 @@
 
 cd ~/Library/Keychains
 
-echo "we are here: "
+#Tells user about location
+echo "This program is removing Keychain libraries located at: "
 
-echo pwd
+#current location 
+'pwd'
 
-echo "We have arrived" 
+#removes user keychains from login point
+rm -rf ~/Library/Keychains/
 
+#asks user if its ok to reboot
 echo "The computer needs to reboot.  Is this ok?  type "y" for yes or "n" for no followed by enter/return."
+
 
