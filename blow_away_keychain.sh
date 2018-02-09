@@ -1,7 +1,7 @@
 #!/bin/bash
 #designed for and tested on Mac OS X 10.8 - 10.12
 
-#cd ~/Library/Keychains
+cd ~/Library/Keychains
 
 #Tells user about location
 echo "This program is removing Keychain libraries located at: "
@@ -10,7 +10,7 @@ echo "This program is removing Keychain libraries located at: "
 'pwd'
 
 #removes user keychains from login point
-#rm -rf ~/Library/Keychains/*
+rm -rf ~/Library/Keychains/*
 
 #asks user if its ok to reboot - thanks to StackOverflow ... im a noob
 while true; do
